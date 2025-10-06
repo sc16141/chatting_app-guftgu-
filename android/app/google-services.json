@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "957474218262",
+    "project_id": "sheelu-global",
+    "storage_bucket": "sheelu-global.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957474218262:android:63ca3da3050954ef373037",
+        "android_client_info": {
+          "package_name": "com.example.prajna_ai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957474218262-rnqs78km4vk4o94g6bg0ol3q2adnvh7m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCObRUvBVs_czGIkIvlgrF-j-f-G9FFiIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957474218262-rnqs78km4vk4o94g6bg0ol3q2adnvh7m.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "957474218262-952nj3qdu1vpqn0bu9p3031a6cfdprnt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.syGlobal"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
