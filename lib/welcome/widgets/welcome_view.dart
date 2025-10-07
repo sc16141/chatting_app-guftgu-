@@ -1,9 +1,8 @@
 // lib/welcome/view/welcome_view.dart
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:go_router/go_router.dart';
 import 'package:prajna_ai/welcome/welcome_bloc/welcome_event.dart';
-import 'package:prajna_ai/welcome/welcome_bloc/welcome_state.dart';
+import 'package:prajna_ai/welcome/widgets/logo_Prajana.dart';
 
 import '../welcome_bloc/welcome_bloc.dart';
 import 'feature_card.dart';
@@ -32,22 +31,24 @@ class WelcomeView extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 const Spacer(flex: 2),
+                LogoPrajana(),
                 // Logo
-                Container(
-                  padding: const EdgeInsets.all(20),
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.white.withOpacity(0.5),
-                  ),
-                  child: Container(
-                    padding: const EdgeInsets.all(25),
-                    decoration: const BoxDecoration(
-                      shape: BoxShape.circle,
-                      color: Colors.white,
-                    ),
-                    child: const Icon(Icons.ac_unit, color: Color(0xFFE6007A), size: 40), // Placeholder icon
-                  ),
-                ),
+
+                // Container(
+                //   padding: const EdgeInsets.all(20),
+                //   decoration: BoxDecoration(
+                //     shape: BoxShape.circle,
+                //     color: Colors.white.withOpacity(0.5),
+                //   ),
+                //   child: Container(
+                //     padding: const EdgeInsets.all(25),
+                //     decoration: const BoxDecoration(
+                //       shape: BoxShape.circle,
+                //       color: Colors.white,
+                //     ),
+                //     child: const Icon(Icons.ac_unit, color: Color(0xFFE6007A), size: 40), // Placeholder icon
+                //   ),
+                // ),
                 const SizedBox(height: 32),
                 // Heading Text
                 const Text(
