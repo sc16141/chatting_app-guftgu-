@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "957474218262-lhah5kn877d6ugqv0uqs4bncp45goi3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prajna_ai",
+            "certificate_hash": "f658088bc96386c7f9cb61d101ef681e1a392473"
+          }
+        },
+        {
           "client_id": "957474218262-rnqs78km4vk4o94g6bg0ol3q2adnvh7m.apps.googleusercontent.com",
           "client_type": 3
         }
