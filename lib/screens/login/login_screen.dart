@@ -87,7 +87,7 @@ class _LoginScreenState extends State<LoginScreen> {
           if (state is SuccessLogin) {
             _showSnackbar('Login Successful!');
             // TODO: Navigate to your home screen here
-            // Navigator.of(context).pushReplacement(...);
+            context.go(AppRoutes.home);
           }
           if (state is PasswordResetEmailSent) {
             _showSnackbar('Password reset email has been sent.');
