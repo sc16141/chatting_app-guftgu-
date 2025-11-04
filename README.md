@@ -1,6 +1,6 @@
 # prajna_ai
 
-A new Flutter project.
+ ai based project throght the bot you can search any thing 
 
 ## Getting Started
 
